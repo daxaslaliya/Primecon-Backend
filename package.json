@@ -1,0 +1,38 @@
+{
+  "name": "starimaging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "super": "supervisor app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InFutiveDev/StarImagingNodeFrontAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InFutiveDev/StarImagingNodeFrontAPI/issues"
+  },
+  "homepage": "https://github.com/InFutiveDev/StarImagingNodeFrontAPI#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.18.0",
+    "firebase-admin": "^11.5.0",
+    "formidable": "^2.1.1",
+    "mongoose": "^6.10.0",
+    "nodemailer": "^6.9.1",
+    "supervisor": "^0.12.0",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
